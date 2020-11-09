@@ -32,19 +32,19 @@ const routes = [
       import(/* webpackChunkName: "Pictures" */ "../views/Pictures.vue"),
   },
   {
-    path: "/links",
-    name: "Links",
+    path: "/about",
+    name: "About",
 
     component: () =>
-      import(/* webpackChunkName: "Links" */ "../views/Links.vue"),
+      import(/* webpackChunkName: "About" */ "../views/About.vue"),
   },
-  {
-    path: "/contact",
-    name: "Contact",
+  // {
+  //   path: "/contact",
+  //   name: "Contact",
 
-    component: () =>
-      import(/* webpackChunkName: "Contact" */ "../views/Contact.vue"),
-  },
+  //   component: () =>
+  //     import(/* webpackChunkName: "Contact" */ "../views/Contact.vue"),
+  // },
 ];
 
 const router = new VueRouter({
