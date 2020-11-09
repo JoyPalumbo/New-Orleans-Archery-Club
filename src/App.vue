@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="#98FB98" dark>
+    <v-app-bar app color="#3CB371" dark>
       <h2>New Orleans Archery Club</h2>
       <v-spacer></v-spacer>
 
@@ -19,35 +19,70 @@
       <router-view></router-view>
       <spacer class="ma-1"></spacer>
     </v-content>
-    <v-footer color="#CE93D8" padless>
-      <v-layout justify-center wrap>
-        <!-- <v-icon>mdi-facebook</v-icon>
-        <v-icon>mdi-twitter</v-icon>
-        <v-icon>email</v-icon> -->
 
-        <!-- <v-spacer pr-1></v-spacer> -->
-        <!-- <i class="fab fa-facebook-square"></i> -->
-        <v-btn
-          v-for="link in links"
-          :key="`${link.label}-footer-link`"
-          color="white"
-          text
-          rounded
-          class="my-2"
-          :to="link.url"
+    <v-footer v-bind="localAttrs" :padless="padless">
+      <v-card
+        flat
+        height="90%"
+        width="100%"
+        color="#3CB371"
+        dark
+        class=" lighten-1 text-center"
+      >
+        <v-card-text>
+          <v-btn v-for="icon in icons" :key="icon" class="mx-4" icon>
+            <v-icon size="24px">
+              {{ icon }}
+            </v-icon>
+          </v-btn>
+        </v-card-text>
+        <h5>Federal City Algiers Archery Range/Baseball Field</h5>
+        <h5>2220 Constitution St New Orleans, LA 70114</h5>
+        <!-- <v-card-text class="white--text pt-0">
+          Federal City Algiers Archery Range/Baseball Field</v-card-text
         >
-          {{ link.label }}
-        </v-btn>
-        <v-flex blue-grey darken-2 grey py-4 text-center grey--text xs12>
-          <!-- {{ new Date().getFullYear() }} -->
-          <h5 class="font-weight-thin">
-            — Copyright © 2020 Joy Palumbo
-          </h5>
-          <!-- <v-icon>mdi-email</v-icon> -->
-          <!-- <i class="material-icons">face</i> -->
-        </v-flex>
-      </v-layout>
+        <v-card-text class="white--text pt-0">
+          2220 Constitution St New Orleans, LA 70114</v-card-text
+        > -->
+        <v-divider></v-divider>
+
+        <v-card-text class="white--text">
+          {{ new Date().getFullYear() }} —
+          <strong>New Orleans Archery Club</strong>
+        </v-card-text>
+      </v-card>
     </v-footer>
+
+    <!-- <v-footer color="#3CB371" dark padless>
+      <v-card flat tile color="#3CB371" dark class="lighten-1 white--text ">
+        <v-card-text class="text-centers">
+          <v-btn
+            v-for="icon in icons"
+            :key="icon"
+            class="mx-4 white--text"
+            icon
+          >
+            <v-icon size="24px">
+              {{ icon }}
+            </v-icon>
+          </v-btn>
+        </v-card-text>
+
+        <v-card-text class="white--text pt-0  ">
+          Federal City Algiers Archery Range/Baseball Field
+        </v-card-text>
+        <v-card-text class="white--text pt-0">
+          2220 Constitution St New Orleans, LA 70114
+        </v-card-text>
+
+        <v-divider></v-divider>
+
+        <v-card-text class="white--text">
+          {{ new Date().getFullYear() }} —
+          <strong>New Orleans Archery Club</strong>
+        </v-card-text>
+      </v-card>
+    </v-footer> -->
   </v-app>
 </template>
 
@@ -65,7 +100,7 @@ export default {
         },
 
         {
-          label: "RangeRules",
+          label: "Range Rules",
           url: "/rangeRules"
         },
         {
@@ -81,7 +116,8 @@ export default {
           label: "Links",
           url: "/links"
         }
-      ]
+      ],
+      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"]
     };
   },
   methods: {}
