@@ -50,7 +50,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 h1 {
   font-size: 60px;
   color: #343643;
