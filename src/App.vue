@@ -23,7 +23,7 @@
     <v-footer v-bind="localAttrs" :padless="padless">
       <v-card
         flat
-        height="90%"
+        height="95%"
         width="100%"
         color="#3CB371"
         dark
@@ -36,14 +36,17 @@
             </v-icon>
           </v-btn>
         </v-card-text>
-        <h5>Federal City Algiers Archery Range/Baseball Field</h5>
-        <h5>2220 Constitution St New Orleans, LA 70114</h5>
-        <!-- <v-card-text class="white--text pt-0">
-          Federal City Algiers Archery Range/Baseball Field</v-card-text
-        >
-        <v-card-text class="white--text pt-0">
-          2220 Constitution St New Orleans, LA 70114</v-card-text
-        > -->
+        <v-row>
+          <v-col md="5">
+            <h5>Address:</h5>
+            <h5>Federal City Algiers Archery Range/Baseball Field</h5>
+            <h5>2220 Constitution St New Orleans, LA 70114</h5>
+          </v-col>
+          <v-col md="5">
+            <h5>Contact</h5>
+          </v-col>
+        </v-row>
+
         <v-divider></v-divider>
 
         <v-card-text class="white--text">
@@ -52,37 +55,6 @@
         </v-card-text>
       </v-card>
     </v-footer>
-
-    <!-- <v-footer color="#3CB371" dark padless>
-      <v-card flat tile color="#3CB371" dark class="lighten-1 white--text ">
-        <v-card-text class="text-centers">
-          <v-btn
-            v-for="icon in icons"
-            :key="icon"
-            class="mx-4 white--text"
-            icon
-          >
-            <v-icon size="24px">
-              {{ icon }}
-            </v-icon>
-          </v-btn>
-        </v-card-text>
-
-        <v-card-text class="white--text pt-0  ">
-          Federal City Algiers Archery Range/Baseball Field
-        </v-card-text>
-        <v-card-text class="white--text pt-0">
-          2220 Constitution St New Orleans, LA 70114
-        </v-card-text>
-
-        <v-divider></v-divider>
-
-        <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} —
-          <strong>New Orleans Archery Club</strong>
-        </v-card-text>
-      </v-card>
-    </v-footer> -->
   </v-app>
 </template>
 
@@ -96,35 +68,29 @@ export default {
       links: [
         {
           label: "Home",
-          url: "/"
+          url: "/",
         },
-
+        {
+          label: "About",
+          url: "/about",
+        },
         {
           label: "Range Rules",
-          url: "/rangeRules"
+          url: "/rangeRules",
         },
         {
           label: "Documents",
-          url: "/documents"
+          url: "/documents",
         },
         {
           label: "Pictures",
-          url: "/pictures"
+          url: "/pictures",
         },
-
-        {
-          label: "Links",
-          url: "/links"
-        },
-        {
-          label: "Contact",
-          url: "/contact"
-        }
       ],
-      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"]
+      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 
