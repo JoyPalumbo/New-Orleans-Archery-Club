@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="#3CB371" dark>
-      <h2>New Orleans Archery Club</h2>
+      <h3>New Orleans Archery Club</h3>
       <v-spacer></v-spacer>
 
       <v-btn

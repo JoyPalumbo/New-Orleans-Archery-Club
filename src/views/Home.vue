@@ -2,6 +2,11 @@
   <div class="home">
     <v-container>
       <v-row>
+        <v-col>
+          <h1>New Orleans Archery Club</h1>
+        </v-col>
+      </v-row>
+      <v-row>
         <v-col md="11">
           <img height="135" src="../assets/archery9.jpeg" class="rounded" />
         </v-col>
@@ -44,3 +49,10 @@ export default {
   }
 };
 </script>
+
+<style>
+h1 {
+  font-size: 60px;
+  color: #343643;
+}
+</style>
