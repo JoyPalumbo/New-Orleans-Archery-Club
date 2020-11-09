@@ -115,6 +115,10 @@ export default {
         {
           label: "Links",
           url: "/links"
+        },
+        {
+          label: "Contact",
+          url: "/contact"
         }
       ],
       icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"]
