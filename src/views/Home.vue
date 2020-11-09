@@ -13,7 +13,7 @@
       </v-row>
       <spacer class="ma-2"></spacer>
       <v-row>
-        <v-col md="1"></v-col>
+        <!-- <v-col md="1"></v-col> -->
         <v-col md="10">
           <h3>
             The New Orleans Archery Club (NOAC) mission is promoting competitive
@@ -30,7 +30,7 @@
           <v-spacer class="ma-4"></v-spacer>
           <h3>
             We are located in Algiers at Federal City's archery range/baseball
-            field and shoot Wednesday @ 4pm and Sunday @ 12:30pm.
+            field and shoot Sunday @ 12:30pm.
           </h3>
         </v-col>
       </v-row>
@@ -46,7 +46,7 @@ export default {
   name: "Home",
   components: {
     // HelloWorld
-  }
+  },
 };
 </script>
 
