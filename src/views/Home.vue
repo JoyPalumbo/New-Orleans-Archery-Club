@@ -7,7 +7,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col md="11">
+        <v-col md="12">
           <img height="135" src="../assets/archery9.jpeg" class="rounded" />
         </v-col>
       </v-row>
