@@ -21,7 +21,9 @@
               Name Here
             </v-list-item-title>
             <v-list-item-subtitle>Coach</v-list-item-subtitle>
-            <v-list-item-subtitle>A little bit about Name</v-list-item-subtitle>
+            <v-list-item-subtitle
+              >A little bit about Name etc</v-list-item-subtitle
+            >
           </v-list-item-content>
 
           <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
