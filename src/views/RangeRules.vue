@@ -1,10 +1,12 @@
 <template>
   <div class="about">
-    <h1>Range Rules</h1>
-    <h2>
+    <h1 text-color="gray">Range Rules</h1>
+    <spacer class="ma-2"></spacer>
+    <h2 class="blue-grey--text ">
       We want to make sure every one can enjoy Archery in a fun, safe
       environment so it is important that everyone observe these rules.
     </h2>
+    <spacer class="ma-2"></spacer>
     <v-row>
       <!-- <v-col md="1"></v-col> -->
       <v-col md="11">
