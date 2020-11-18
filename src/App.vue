@@ -68,33 +68,41 @@ export default {
       links: [
         {
           label: "Home",
-          url: "/",
+          url: "/"
         },
         {
           label: "About",
-          url: "/about",
+          url: "/about"
         },
         {
           label: "Range Rules",
-          url: "/rangeRules",
+          url: "/rangeRules"
         },
         {
           label: "Documents",
-          url: "/documents",
+          url: "/documents"
         },
         {
           label: "Pictures",
-          url: "/pictures",
+          url: "/pictures"
         },
+        {
+          label: "Joad",
+          url: "/joad"
+        },
+        {
+          label: "Events",
+          url: "/events"
+        }
       ],
-      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"]
     };
   },
-  methods: {},
+  methods: {}
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
