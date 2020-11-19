@@ -14,7 +14,7 @@
               >A little bit about Name etc</v-list-item-subtitle
             >
             <v-list-item-subtitle>Email: </v-list-item-subtitle>
-            <v-list-item-subtitle>Phone: (504) 408-6099</v-list-item-subtitle>
+            <v-list-item-subtitle>Phone: </v-list-item-subtitle>
           </v-list-item-content>
 
           <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
@@ -42,11 +42,18 @@
             <v-list-item-title class="headline mb-1">
               Shawn Castrillo
             </v-list-item-title>
-            <v-list-item-subtitle>Instructor</v-list-item-subtitle>
-            <v-list-item-subtitle>A little bit about Name</v-list-item-subtitle>
+            <v-list-item-subtitle
+              >USA Archery Level 1 Instructor</v-list-item-subtitle
+            >
+            <v-list-item-subtitle
+              >Shawn first picked up a bow in 2017. Native New Orleanian.
+              Elementary School Teacher.</v-list-item-subtitle
+            >
           </v-list-item-content>
 
-          <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
+          <v-list-item-avatar size="120" color="grey">
+            <v-img src="../assets/ShawnCastrilloProfilePic.jpg"></v-img>
+          </v-list-item-avatar>
         </v-list-item>
       </v-card>
       <v-card class="mx-auto" max-width="344" outlined>
@@ -56,7 +63,7 @@
               Phil
             </v-list-item-title>
             <v-list-item-subtitle>Instructor</v-list-item-subtitle>
-            <v-list-item-subtitle>A little bit about Name</v-list-item-subtitle>
+            <v-list-item-subtitle>coming soon</v-list-item-subtitle>
           </v-list-item-content>
 
           <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
