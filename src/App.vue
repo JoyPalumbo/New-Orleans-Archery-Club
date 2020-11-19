@@ -59,50 +59,51 @@
 </template>
 
 <script>
-import { mdiAccount } from "@mdi/js";
+//hello are changes showing?
+// import { mdiAccount } from "@mdi/js";
 export default {
   name: "App",
   data() {
     return {
-      svgPath: mdiAccount,
+      // svgPath: mdiAccount,
       links: [
         {
           label: "Home",
-          url: "/"
+          url: "/",
         },
         {
           label: "About",
-          url: "/about"
+          url: "/about",
         },
         {
           label: "Range Rules",
-          url: "/rangeRules"
+          url: "/rangeRules",
         },
         {
           label: "Documents",
-          url: "/documents"
+          url: "/documents",
         },
         {
           label: "Pictures",
-          url: "/pictures"
+          url: "/pictures",
         },
         {
           label: "Joad",
-          url: "/joad"
+          url: "/joad",
         },
         {
           label: "Events",
-          url: "/events"
-        }
+          url: "/events",
+        },
       ],
-      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"]
+      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
     };
   },
-  methods: {}
+  methods: {},
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
