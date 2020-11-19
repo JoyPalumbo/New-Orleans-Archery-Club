@@ -3,18 +3,18 @@
     <v-container>
       <v-row>
         <v-col>
-          <h1>New Orleans Archery Club</h1>
+          <h1 class="text-center">New Orleans Archery Club</h1>
         </v-col>
       </v-row>
       <v-row>
-        <v-col md="12">
-          <img height="135" src="../assets/archery9.jpeg" class="rounded" />
+        <v-col md="12" justify="center" align="center">
+          <img height="140" src="../assets/archery9.jpeg" class="rounded " />
         </v-col>
       </v-row>
-      <spacer class="ma-2"></spacer>
+      <!-- <spacer class="ma-2"></spacer> -->
       <v-row>
         <!-- <v-col md="1"></v-col> -->
-        <v-col md="10">
+        <v-col class="text-center">
           <h3>
             The New Orleans Archery Club (NOAC) mission is promoting competitive
             archery for enjoyment and sportsmanship. A non-profit volunteer
