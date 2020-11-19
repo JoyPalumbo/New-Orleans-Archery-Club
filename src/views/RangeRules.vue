@@ -10,7 +10,7 @@
     <v-card class="mx-auto" max-width="800" outlined>
       <v-row>
         <!-- <v-col md="1"></v-col> -->
-        <v-col md="8">
+        <v-col>
           <card-text class="text-left pa-2 ma-2 ">
             <!-- <h3 class="text-left ma-2 "> -->
             1. Crossbows, broadheads, guns, firearms, pets and alcoholic
@@ -67,11 +67,11 @@
           <!-- </h3> -->
           <!-- <h3 class="text-left ma-2 "> -->
           <br />
-          <card-text class="text-left pa-2 ma-2 ">
+          <card-text class="text-center pa-2 ma-2 ">
             7. If searching for a lost arrow, place your bow in front of the
             target. Do not commence
           </card-text>
-          <card-text class="text-left pa-2 ma-2 ">
+          <card-text class="text-center pa-2 ma-2 ">
             firing if you observe a bow in front of the target.
           </card-text>
           <!-- </h3> -->
@@ -84,7 +84,7 @@
 <style scoped>
 card-text {
   font-size: 20px;
-  text-align: none;
+  /* text-align: none; */
   /* color: #343643; */
 }
 </style>
