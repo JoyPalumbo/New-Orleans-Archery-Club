@@ -70,5 +70,22 @@
         </v-list-item>
       </v-card>
     </v-row>
+    <v-row>
+    <v-col>
+    <h2> TO JOIN </h2>
+    <h1>To become a member there is a $20 membership fee.  The first time coming, it is free to try it out to see if you enjoy archery. After your first time it will be 
+    $10 per session to help cover the expenses of the equipment.
+    </h1>
+    </v-col>
+    </v-row>
+      <v-row>
+    <v-col>
+    <h2> Useful linkes</h2>
+    <RouterLink :to="https://www.usarchery.org/about/about-us">USA Archery</RouterLink>
+    <RouterLink :to="https://www.usarchery.org/club-management/junior-olympic-archery-development-program-management">Joad-Junior Olympic Archery Development Program</RouterLink>
+     <RouterLink :to="http://www.collegescholarships.org/scholarships/sports/archery.htm">Collage Scholarships</RouterLink>
+     <RouterLink :to="http://www.gomidwayeagles.com/sport/0/9.php">Midway University, KY Archery Program</RouterLink>
+    </v-col>
+    </v-row>
   </v-container>
 </template>
