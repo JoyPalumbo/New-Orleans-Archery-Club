@@ -17,7 +17,7 @@
         <v-col class="text-center">
         <h2>How to Join</h2>
         <h3>The New Orleans Archery Club is open to anyone, of any age, who has an interest in learning archery!  The club has equipment available for use or you can bring your own equipment.
-            We shoot on Sundays at 12:30pm.  Please read the Range Rules before coming.
+            We shoot on Sundays at 12:30pm.  Please read the Range Rules and print and sign the consent form before coming your first time.
         </h3>
           <h3>
             The New Orleans Archery Club (NOAC) mission is promoting competitive
