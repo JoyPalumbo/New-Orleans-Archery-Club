@@ -9,12 +9,13 @@
             <v-list-item-title class="headline mb-1">
               George Alamilla
             </v-list-item-title>
-            <v-list-item-subtitle>Coach</v-list-item-subtitle>
+            <v-list-item-subtitle>Coach </v-list-item-subtitle>
             <v-list-item-subtitle style="height:65px"
-              >A little bit about Name etc</v-list-item-subtitle
+              >USA Archery Level3 NTS coach: Olympic Recurve and Compound Bow
+              Disciplines in the JOAD/Adult age groups</v-list-item-subtitle
             >
-            <v-list-item-subtitle>Email: </v-list-item-subtitle>
-            <v-list-item-subtitle>Phone: </v-list-item-subtitle>
+            <!-- <v-list-item-subtitle>Email: </v-list-item-subtitle>
+            <v-list-item-subtitle>Phone: </v-list-item-subtitle> -->
           </v-list-item-content>
 
           <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
