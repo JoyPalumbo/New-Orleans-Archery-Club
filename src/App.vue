@@ -95,6 +95,10 @@ export default {
           label: "Events",
           url: "/events",
         },
+        {
+          label: "Social Media",
+          url: "/socialMedia",
+        },
       ],
       icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
     };
