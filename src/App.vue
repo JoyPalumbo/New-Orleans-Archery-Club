@@ -29,13 +29,19 @@
         dark
         class=" lighten-1 text-center"
       >
-        <v-card-text>
-          <v-btn v-for="icon in icons" :key="icon" class="mx-4" icon>
-            <v-icon size="24px">
-              {{ icon }}
-            </v-icon>
-          </v-btn>
-        </v-card-text>
+        <!-- <v-card-text>
+          <v-row>
+            <v-col md="5">
+              <v-btn v-for="icon in icons" :key="icon" class="mx-4" icon medium>
+                <a :href="icon.url" :target="icon.target">
+                  <v-icon size="30px">
+                    {{ icon.name }}
+                  </v-icon></a
+                >
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-card-text> -->
         <v-row>
           <v-col md="5">
             <h5>Address:</h5>
@@ -44,6 +50,20 @@
           </v-col>
           <v-col md="5">
             <h5>Contact</h5>
+            <v-btn
+              flat
+              v-for="icon in icons"
+              :key="icon"
+              class="mx-5"
+              icon
+              medium
+            >
+              <a :href="icon.url" :target="icon.target">
+                <v-icon size="30px" class="noline ">
+                  {{ icon.name }}
+                </v-icon></a
+              >
+            </v-btn>
           </v-col>
         </v-row>
 
@@ -100,7 +120,30 @@ export default {
           url: "/socialMedia",
         },
       ],
-      icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
+      icons: [
+        {
+          name: "mdi-facebook",
+          url:
+            "https://www.facebook.com/New-Orleans-Archery-Club-100104458645257",
+          target: "blank",
+        },
+        {
+          name: "mdi-twitter",
+          url: "https://twitter.com/ArcheryNew",
+          target: "blank",
+        },
+
+        // {
+        //   twitter: {
+        //     icon: "mdi-twitter",
+        //     url: "www.twitter.com",
+        //   },
+        // },
+
+        // "mdi-twitter",
+        // "mdi-linkedin",
+        // "mdi-instagram",
+      ],
     };
   },
   methods: {},
@@ -127,5 +170,14 @@ export default {
       color: #42b983;
     }
   }
+  .v-btn {
+    text-decoration: none;
+  }
+  // .underline i.material-icons {
+  //   text-decoration: none !important;
+  // }
+  // .noline {
+  //   text-decoration: none;
+  // }
 }
 </style>
