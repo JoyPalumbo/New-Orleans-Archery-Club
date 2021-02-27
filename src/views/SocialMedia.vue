@@ -10,29 +10,35 @@
     <Timeline id="twitterdev" sourceType="list" /> -->
 
     <!-- Facebook -->
-    <div
-      class="fb-page"
-      data-href='https://www.facebook.com/New-Orleans-Archery-Club-100104458645257/"'
-      data-tabs="timeline"
-      data-width="500"
-      data-height="630"
-      data-small-header="false"
-      data-adapt-container-width="true"
-      data-hide-cover="false"
-      data-show-facepile="true"
-    >
-      <blockquote
-        cite='https://www.facebook.com/New-Orleans-Archery-Club-100104458645257/"'
-        class="fb-xfbml-parse-ignore"
-      >
-        <a
-          href='https://www.facebook.com/New-Orleans-Archery-Club-100104458645257/"'
-          >New Orleans Archery Club</a
-        >
-      </blockquote>
-    </div>
+    <v-row>
+      <v-col cols="1"></v-col>
+      <v-col cols="5">
+        <div class="facebook">
+          <div
+            class="fb-page"
+            data-href='https://www.facebook.com/New-Orleans-Archery-Club-100104458645257/"'
+            data-tabs="timeline"
+            data-width="500"
+            data-height="630"
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="true"
+          >
+            <blockquote
+              cite='https://www.facebook.com/New-Orleans-Archery-Club-100104458645257/"'
+              class="fb-xfbml-parse-ignore"
+            >
+              <a
+                href='https://www.facebook.com/New-Orleans-Archery-Club-100104458645257/"'
+                >New Orleans Archery Club</a
+              >
+            </blockquote>
+          </div>
+        </div>
+      </v-col>
 
-    <!-- <div class="facebook">
+      <!-- <div class="facebook">
       <div id="fb-root"></div>
       <script
         async
@@ -65,25 +71,25 @@
       </div>
     </div> -->
 
-    <!-- Twitter -->
+      <!-- Twitter -->
+      <v-col cols="5">
+        <div class="twitter">
+          <a
+            class="twitter-timeline"
+            data-width="500"
+            data-height="630"
+            href="https://twitter.com/ArcheryNew?ref_src=twsrc%5Etfw"
+            >Tweets by ArcheryNew</a
+          >
+          <script
+            type="application/javascript"
+            defer
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
 
-    <div class="twitter">
-      <a
-        class="twitter-timeline"
-        data-width="500"
-        data-height="630"
-        href="https://twitter.com/ArcheryNew?ref_src=twsrc%5Etfw"
-        >Tweets by ArcheryNew</a
-      >
-      <script
-        type="application/javascript"
-        defer
-        async
-        src="https://platform.twitter.com/widgets.js"
-        charset="utf-8"
-      ></script>
-
-      <!-- <a
+          <!-- <a
         class="twitter-timeline"
         href="https://twitter.com/ArcheryNew?ref_src=twsrc%5Etfw"
         >Tweets by ArcheryNew</a
@@ -95,8 +101,10 @@
         src="https://platform.twitter.com/widgets.js"
         charset="utf-8"
       ></script> -->
-    </div>
-
+        </div>
+      </v-col>
+      <v-col cols="1"></v-col>
+    </v-row>
     <!-- <div>
       <a
         class="twitter-timeline"
@@ -121,7 +129,7 @@
 
 <style>
 .twitter {
-  display: inline-block;
+  /* display: inline-block; */
   font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -137,7 +145,7 @@
 }
 
 .facebook {
-  display: inline-block;
+  /* display: inline-block; */
   font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
   font-size: 12px;
   font-weight: bold;
