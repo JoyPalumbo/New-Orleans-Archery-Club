@@ -18,7 +18,7 @@
             class="fb-page"
             data-href='https://www.facebook.com/New-Orleans-Archery-Club-100104458645257/"'
             data-tabs="timeline"
-            data-width="500"
+            data-width="600"
             data-height="630"
             data-small-header="false"
             data-adapt-container-width="true"
@@ -141,7 +141,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   margin: 10px 5px;
   padding: 0 16px 16px 16px;
-  max-width: 468px;
+  max-width: 550px;
 }
 
 .facebook {
@@ -157,7 +157,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   margin: 10px 5px;
   padding: 0 16px 16px 16px;
-  max-width: 468px;
+  max-width: 600px;
 }
 
 /* .facebook,
