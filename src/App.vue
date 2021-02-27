@@ -61,8 +61,8 @@
               <a :href="icon.url" :target="icon.target">
                 <v-icon size="30px">
                   {{ icon.name }}
-                </v-icon></a
-              >
+                </v-icon>
+              </a>
             </v-btn>
           </v-col>
         </v-row>
@@ -155,6 +155,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   // text-align: center;
   color: #2c3e50;
 }
@@ -162,22 +163,34 @@ export default {
 #nav {
   padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+  // a {
+  //   font-weight: bold;
+  //   color: #2c3e50;
+  //   text-decoration: none;
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-  .v-btn {
-    text-decoration: none;
-  }
-  // .underline i.material-icons {
-  //   text-decoration: none !important;
+  //   &.router-link-exact-active {
+  //     color: #42b983;
+  //   }
+  // a:link {
+  //   text-decoration: none;
   // }
+
+  // }
+  // .v-btn {
+  //   text-decoration: none;
+  // }
+  // // .underline i.material-icons {
+  // //   text-decoration: none !important;
+  // // }
   // .noline {
   //   text-decoration: none;
   // }
+  // a {
+  //   text-decoration: none;
+  // }
+}
+a {
+  // color: hotpink;
+  text-decoration: none;
 }
 </style>
