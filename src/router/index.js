@@ -56,7 +56,7 @@ const routes = [
     name: "Social Media",
 
     component: () =>
-      import(/* webpackChunkName: "Joad" */ "../views/socialMedia.vue"),
+      import(/* webpackChunkName: "Joad" */ "../views/SocialMedia.vue"),
   },
   // {
   //   path: "/contact",

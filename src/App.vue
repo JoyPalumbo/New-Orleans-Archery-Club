@@ -59,7 +59,7 @@
               medium
             >
               <a :href="icon.url" :target="icon.target">
-                <v-icon size="30px" class="noline ">
+                <v-icon size="30px">
                   {{ icon.name }}
                 </v-icon></a
               >
