@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["Documents"],{fb2d:function(n,u,e){"use strict";e.r(u);var l,o,s=e("2877"),t={},c=Object(s["a"])(t,l,o,!1,null,null,null);u["default"]=c.exports}}]);
-//# sourceMappingURL=Documents.28db176b.js.map
