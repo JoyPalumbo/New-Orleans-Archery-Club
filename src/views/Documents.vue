@@ -7,13 +7,27 @@
       <v-col md="3"></v-col>
       <v-col md="2">
         <a
-          href="http://noarcheryclub.com/documents/ARCHERYHOLDHARMLESS2015.pdf"
+          href="https://docs.google.com/document/d/12EsAjEl9IDLnplFVWufyq8TMfgcFtlBDtPemoFwhcEg/edit?usp=sharing"
           target="_blank"
           >NOAC Release form</a
         >
       </v-col>
       <v-col md="4">
         <h4>:legal requirement in the event of an injury</h4>
+      </v-col>
+      <v-col md="3"></v-col>
+    </v-row>
+    <v-row>
+      <v-col md="3"></v-col>
+      <v-col md="2">
+        <a
+          href="https://docs.google.com/document/d/1DMfe0GA7Yade3yU6dqyfdCuUVvKeH-uHeW0W5ADQ4pQ/edit?usp=sharing"
+          target="_blank"
+          >Waiver</a
+        >
+      </v-col>
+      <v-col md="4">
+        <h4>: NEW ORLEANS ARCHERY CLUB WAIVER AND RELEASE OF LIABILITY</h4>
       </v-col>
       <v-col md="3"></v-col>
     </v-row>
