@@ -35,7 +35,7 @@
       <v-col md="3"></v-col>
       <v-col md="2">
         <a
-          href="http://noarcheryclub.com/documents/Individual_Member_Ins_Benefits.pdf"
+          href="https://docs.google.com/document/d/1WMjcjaHEon0swKCFpc2cdvqn6xUnIsbm3xdjWBS3z9A/edit?usp=sharing"
           target="_blank"
           >Individual Member Insurance</a
         >
@@ -46,8 +46,16 @@
       <v-col md="3"></v-col>
     </v-row>
 
+    <!-- <a href="src/assets/ARCHERY 2012-InsuranceCoverage-8-8-12.pdf" download> -->
     <!-- <pdf src="../assets/files/ARCHERYHOLDHARMLESS2015.pdf"></pdf> -->
   </div>
+
+  <!-- <div>
+    <script type="application/javascript" defer src="/js/pdfobject.js"></script>
+    <script type="application/javascript" defer>
+      PDFObject.embed("/pdf/sample-3pp.pdf", "#example1");
+    </script>
+  </div> -->
 </template>
 
 <script>
@@ -71,3 +79,9 @@ export default {
   // components: { WebViewer },
 };
 </script>
+<style>
+.pdfobject-container {
+  height: 30rem;
+  border: 1rem solid rgba(0, 0, 0, 0.1);
+}
+</style>
