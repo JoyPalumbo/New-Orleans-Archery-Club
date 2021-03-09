@@ -7,6 +7,23 @@
         <v-list-item three-line>
           <v-list-item-content>
             <v-list-item-title class="headline mb-1">
+              Billy
+            </v-list-item-title>
+            <v-list-item-subtitle>Coach</v-list-item-subtitle>
+            <v-list-item-subtitle style="height:65px"
+              >USA Archery Level3 NTS coach: Olympic Recurve and Compound Bow
+              Disciplines in the JOAD/Adult age groups</v-list-item-subtitle
+            >
+          </v-list-item-content>
+
+          <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
+        </v-list-item>
+      </v-card>
+
+      <v-card class="mx-auto" max-width="360" outlined>
+        <v-list-item three-line>
+          <v-list-item-content>
+            <v-list-item-title class="headline mb-1">
               George Alamilla
             </v-list-item-title>
             <v-list-item-subtitle>Coach </v-list-item-subtitle>
@@ -16,21 +33,6 @@
             >
             <!-- <v-list-item-subtitle>Email: </v-list-item-subtitle>
             <v-list-item-subtitle>Phone: </v-list-item-subtitle> -->
-          </v-list-item-content>
-
-          <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
-        </v-list-item>
-      </v-card>
-      <v-card class="mx-auto" max-width="360" outlined>
-        <v-list-item three-line>
-          <v-list-item-content>
-            <v-list-item-title class="headline mb-1">
-              Billy
-            </v-list-item-title>
-            <v-list-item-subtitle>Coach</v-list-item-subtitle>
-            <v-list-item-subtitle style="height:65px"
-              >A little bit about Name</v-list-item-subtitle
-            >
           </v-list-item-content>
 
           <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
@@ -81,7 +83,7 @@
         <h2 class="text-center">TO JOIN</h2>
         <spacer class="ma-3"></spacer>
         <h3 class="text-center">
-          To become a member there is a $20 membership fee. The first time
+          To become a member there is a $25 membership fee. The first time
           coming, it is free to try it out to see if you enjoy archery. After
           your first time it will be $10 per session to help cover the expenses
           of the equipment.
