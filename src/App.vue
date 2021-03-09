@@ -45,8 +45,9 @@
         <v-row>
           <v-col md="5">
             <h5>Address:</h5>
-            <h5>Federal City Algiers Archery Range/Baseball Field</h5>
-            <h5>2220 Constitution St New Orleans, LA 70114</h5>
+            <h5>2000 Gen Meyer Ave Algiers, LA 70114</h5>
+            <h5>Corner of Gen Meyer Ave and Behrman Ave</h5>
+            <h5>Across from Harriet Tubman Charter School</h5>
           </v-col>
           <v-col md="5">
             <h5>Contact</h5>
