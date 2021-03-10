@@ -16,7 +16,9 @@
             >
           </v-list-item-content>
 
-          <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
+          <v-list-item-avatar size="120" color="grey">
+            <v-img src="../assets/billy.jpg"></v-img
+          ></v-list-item-avatar>
         </v-list-item>
       </v-card>
 
@@ -35,7 +37,9 @@
             <v-list-item-subtitle>Phone: </v-list-item-subtitle> -->
           </v-list-item-content>
 
-          <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
+          <v-list-item-avatar size="120" color="grey">
+            <v-img src="../assets/george.jpg"></v-img>
+          </v-list-item-avatar>
         </v-list-item>
       </v-card>
     </v-row>
