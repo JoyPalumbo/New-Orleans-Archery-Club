@@ -21,7 +21,7 @@
       <v-col md="3"></v-col>
       <v-col md="2">
         <a
-          href="https://docs.google.com/document/d/1DMfe0GA7Yade3yU6dqyfdCuUVvKeH-uHeW0W5ADQ4pQ/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1T0PY3vj-yovl_wp-bqxatz_Eq1z1QQTguUz_PQzhvxg/edit?usp=sharing"
           target="_blank"
           >Waiver</a
         >
@@ -89,7 +89,7 @@ export default {
 
   methods: {
     // downloadPDF() {},
-  },
+  }
   // components: { WebViewer },
 };
 </script>
