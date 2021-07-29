@@ -39,8 +39,7 @@
           </h3>
           <v-spacer class="ma-4"></v-spacer>
           <h3>
-            We are located in Algiers at 2000 Gen Meyer Ave at the Corner of Gen
-            Meyer Ave and Behrman Ave Across from Harriet Tubman Charter School
+            We are located in Algiers at 5600 General Degaulle
             and shoot Sunday at 12:30pm.
           </h3>
         </v-col>
