@@ -46,6 +46,7 @@
           <v-col md="5">
             <h5>Address:</h5>
             <h5> 5600 General Degaulle, LA 70131</h5>
+            <h5>Parking is in the University's west lot</h5>
            // <h5>Corner of Gen Meyer Ave and Behrman Ave</h5>
             //<h5>Across from Harriet Tubman Charter School</h5>
           </v-col>
