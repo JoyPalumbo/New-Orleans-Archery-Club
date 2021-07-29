@@ -112,10 +112,6 @@ export default {
           url: "/joad",
         },
         {
-          label: "Events",
-          url: "/events",
-        },
-        {
           label: "Social Media",
           url: "/socialMedia",
         },
