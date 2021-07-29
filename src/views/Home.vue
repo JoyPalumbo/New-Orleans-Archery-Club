@@ -21,7 +21,7 @@
             The New Orleans Archery Club is open to anyone, of any age, who has
             an interest in learning archery! The club has equipment available
             for use or you can bring your own equipment. We shoot on Sundays at
-            12:30pm. Please read the Range Rules and print and sign the consent
+            10:00am. Please read the Range Rules and print and sign the consent
             form before coming your first time.
           </h3>
           <v-spacer class="ma-4"></v-spacer>
@@ -40,7 +40,7 @@
           <v-spacer class="ma-4"></v-spacer>
           <h3>
             We are located in Algiers at 5600 General Degaulle
-            and shoot Sunday at 12:30pm.
+            and shoot Sundays at 10:00am.
           </h3>
         </v-col>
       </v-row>
