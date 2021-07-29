@@ -40,7 +40,7 @@
           <v-spacer class="ma-4"></v-spacer>
           <h3>
             We are located in Algiers at 5600 General Degaulle
-            and shoot Sundays at 10:00am.
+            and shoot Sundays at 10:00am.  There is parking available in the University's west lot.
           </h3>
         </v-col>
       </v-row>
