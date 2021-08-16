@@ -111,10 +111,10 @@ export default {
           label: "Joad",
           url: "/joad",
         },
-        {
-          label: "Social Media",
-          url: "/socialMedia",
-        },
+       // {
+       //   label: "Social Media",
+      //    url: "/socialMedia",
+    //    },
       ],
       icons: [
         {
