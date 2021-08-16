@@ -18,7 +18,7 @@
           <h2>How to Join</h2>
           <v-spacer class="ma-4"></v-spacer>
           <h3>
-            The New Orleans Archery Club is open to anyone, of any age, who has
+            The New Orleans Archery Club is open to anyone, ages 9 years old and up, who has
             an interest in learning archery! The club has equipment available
             for use or you can bring your own equipment. We shoot on Sundays at
             10:00am. Please read the Range Rules and print and sign the consent
