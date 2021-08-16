@@ -89,8 +89,9 @@
         <h3 class="text-center">
           To become a member there is a $25 membership fee. The first time
           coming, it is free to try it out to see if you enjoy archery. After
-          your first time it will be $10 per session to help cover the expenses
-          of the equipment.
+          your first time it will be $10 per session if using club equipment, $5 if you bring your own equipment, to help cover the expenses
+          of the targets and club equipment.  New Orleans Archery Club is a non-profit club. To foster participation, scholarships for membership/session
+          dues are awarded to those who cannot afford it, on a case by case basis.  Please communicate with the coaches.
         </h3>
       </v-col>
     </v-row>
