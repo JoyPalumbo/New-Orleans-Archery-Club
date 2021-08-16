@@ -7,7 +7,7 @@
         <v-list-item three-line>
           <v-list-item-content>
             <v-list-item-title class="headline mb-1">
-              Billy
+              Billy Appel
             </v-list-item-title>
             <v-list-item-subtitle>Coach</v-list-item-subtitle>
             <v-list-item-subtitle style="height:65px"
