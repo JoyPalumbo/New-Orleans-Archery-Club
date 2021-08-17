@@ -64,7 +64,7 @@
             <v-img src="../assets/ShawnCastrilloProfilePic.jpg"></v-img>
           </v-list-item-avatar>
         </v-list-item>
-      </v-card>
+      <!-- </v-card>
       <v-card class="mx-auto" max-width="360" height="100%" outlined>
         <v-list-item three-line>
           <v-list-item-content>
@@ -79,7 +79,7 @@
 
           <v-list-item-avatar size="120" color="grey"></v-list-item-avatar>
         </v-list-item>
-      </v-card>
+      </v-card> -->
     </v-row>
     <spacer class="ma-3"></spacer>
     <v-row>
