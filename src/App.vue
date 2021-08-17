@@ -50,6 +50,8 @@
           </v-col>
           <v-col md="5">
             <h5>Contact</h5>
+            <h5>Email: Galamilla@gmail.com</h5>
+            <h5>Phone: (504) 408-6099</h5>
             <v-btn
               flat
               v-for="icon in icons"
