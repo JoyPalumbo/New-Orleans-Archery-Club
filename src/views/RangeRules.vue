@@ -31,7 +31,7 @@
           <!-- <h3 class="text-left ma-2 "> -->
           <br />
           <card-text class="text-left pa-2 ma-2 ">
-            3. Children under the age of twelve require adult supervision.
+            3. All minors require adult supervision.
           </card-text>
           <!-- </h3> -->
           <!-- <h3 class="text-left ma-2 "> -->
