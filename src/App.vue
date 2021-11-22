@@ -109,14 +109,14 @@ export default {
           label: "Pictures",
           url: "/pictures",
         },
-        {
-          label: "Joad",
-          url: "/joad",
-        },
-       // {
-       //   label: "Social Media",
-      //    url: "/socialMedia",
-    //    },
+   //     {
+  //        label: "Joad",
+   //       url: "/joad",
+  //      },
+       {
+         label: "Social Media",
+         url: "/socialMedia",
+       },
       ],
       icons: [
         {
